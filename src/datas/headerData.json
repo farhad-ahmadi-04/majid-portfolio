@@ -1,0 +1,18 @@
+{
+    "nav": [{
+            "child": "Hero"
+        },
+        {
+            "child": "About"
+        },
+        {
+            "child": "Skills"
+        },
+        {
+            "child": "Projects"
+        },
+        {
+            "child": "giving thanks"
+        }
+    ]
+}
