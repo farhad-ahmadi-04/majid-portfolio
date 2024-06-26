@@ -1,7 +1,5 @@
 import domGenerator from "dom-generator";
 import "./header.css"
-import headerData from "../../datas/headerData.json"
-let data = headerData.nav
 
 export default function header() {
     return (
@@ -12,32 +10,38 @@ export default function header() {
                 children: {
                     tag: "div",
                     attributes: { class: "container containerHeader" },
-                    children: {
-                        tag: "ul",
-                        attributes: { class: "liRepository" },
-                        children: liCreator(data)
-                    }
+                    children: [
+                        {
+                            tag: "div",
+                            children: {
+                                tag: "ul",
+                                attributes: { class: "liRepository" },
+                                children: [
+                                    liCreator("li", "", "Hero", ""),
+                                    liCreator("li", "", "About", ""),
+                                    liCreator("li", "", "Skills", ""),
+                                    liCreator("li", "", "Projects", ""),
+                                    liCreator("li", "", "giving thanks", ""),
+                                ]
+                            }
+                        },
+                        {
+                            tag: "div"
+                        }
+                    ]
                 }
             }
         )
     )
 }
 
-function liCreator(info) {
-    info.foreach
+function liCreator(tagName, className, child, href = "#") {
     return (
-        (
-            function (item) {
-                domGenerator(
-                    {
-                        tag: "li",
-                        attributes: { class: "liHeader" },
-                        properties: { textContent: item.child }
-                    }
-                )
-            }
-        )
+        {
+            tag: tagName,
+            attributes: { class: className },
+            properties: { textContent: child },
+            href: href
+        }
     )
 }
-
-// console.log(liCreator(data));
