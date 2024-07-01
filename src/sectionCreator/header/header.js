@@ -35,7 +35,7 @@ export default function header() {
                             attributes: { class: "parentIcon-H" },
                             children: {
                                 tag: "img",
-                                attributes: { class: "menu-nav-H", src: "./public/images/marketeq_menu.svg" }
+                                attributes: { class: "menu-nav-H", src: "/images/marketeq_menu.svg" }
                             }
                         }
                     ]
