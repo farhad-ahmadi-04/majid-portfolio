@@ -13,20 +13,30 @@ export default function header() {
                     children: [
                         {
                             tag: "div",
+                            attributes: { class: "bg-nav-header" },
                             children: {
                                 tag: "ul",
                                 attributes: { class: "liRepository" },
                                 children: [
-                                    liCreator("li", "", "Hero", ""),
-                                    liCreator("li", "", "About", ""),
-                                    liCreator("li", "", "Skills", ""),
-                                    liCreator("li", "", "Projects", ""),
-                                    liCreator("li", "", "giving thanks", ""),
+                                    liCreator("Hero", ""),
+                                    liCreator("About", ""),
+                                    liCreator("Skills", ""),
+                                    liCreator("Projects", ""),
+                                    liCreator("giving thanks", ""),
                                 ]
                             }
                         },
                         {
-                            tag: "div"
+                            tag: "div",
+                            attributes: { class: "triangle" }
+                        },
+                        {
+                            tag: "div",
+                            attributes: { class: "parentIcon-H" },
+                            children: {
+                                tag: "img",
+                                attributes: { class: "menu-nav-H", src: "./public/images/marketeq_menu.svg" }
+                            }
                         }
                     ]
                 }
@@ -35,13 +45,12 @@ export default function header() {
     )
 }
 
-function liCreator(tagName, className, child, href = "#") {
+function liCreator(child, href = "#") {
     return (
         {
-            tag: tagName,
-            attributes: { class: className },
+            tag: "li",
             properties: { textContent: child },
-            href: href
+            attributes: { href: href }
         }
     )
 }
