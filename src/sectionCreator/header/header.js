@@ -51,7 +51,7 @@ function liCreator(child, href = "#") {
         {
             tag: "li",
             properties: { textContent: child },
-            attributes: { href: href, class: "py-2 sm:py-1 px-2 mx-3 font-bold text-xs sm:text-lg " }
+            attributes: { href: href, class: "py-2 sm:py-1 sm:px-2 px-1 mx-3 font-bold text-xs sm:text-lg " }
         }
     )
 }
