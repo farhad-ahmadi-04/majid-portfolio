@@ -1,5 +1,6 @@
 import domGenerator from "dom-generator";
 import "./header.css"
+import icons from "../../datas/icons.json"
 
 export default function header() {
     return (
@@ -35,7 +36,7 @@ export default function header() {
                             attributes: { class: "parentIcon-H" },
                             children: {
                                 tag: "img",
-                                attributes: { class: "menu-nav-H", src: "/images/marketeq_menu.svg" }
+                                attributes: { class: "menu-nav-H", src: icons.header.menu }
                             }
                         }
                     ]
