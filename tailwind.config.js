@@ -5,7 +5,20 @@ export default {
     "./src/**/*.{js,html}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'Beige': {
+          DEFAULT: '#E2DFCA',
+          light: '#DAD5B7',
+          Medium: '#C2B79B',
+          dark: '#8C8C8C'
+        },
+        'blue': {
+          Teal: '#3A5F6F',
+          dark: '#243757'
+        }
+      }
+    },
     container: {
       center: true,
     }
