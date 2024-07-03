@@ -1,24 +1,20 @@
 @import url(../../assets/localVariables/colorVariables.css);
 
 .triangle {
-    width: 70px;
-    height: 55px;
     border-left: 0px solid transparent;
-    border-right: 200px solid transparent;
+    border-right: 100px solid transparent;
     border-bottom: 0px solid transparent;
-    border-top: 102px solid var(--light-color);
+    border-top: 56px solid var(--light-color);
 }
 
 @media (max-width: 768px) {
     .triangle {
-        border-right: 110px solid transparent;
-        border-top: 72px solid var(--light-color);
+        border-right: 100px solid transparent;
     }
 }
 
 @media (max-width: 640px) {
     .triangle {
         border-right: 70px solid transparent;
-        border-top: 62px solid var(--light-color);
     }
 }
