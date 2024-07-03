@@ -10,14 +10,14 @@ export default function header() {
                 attributes: { id: "header" },
                 children: {
                     tag: "div",
-                    attributes: { class: "container containerHeader" },
+                    attributes: { class: "container flex" },
                     children: [
                         {
                             tag: "div",
-                            attributes: { class: "bg-nav-header" },
+                            attributes: { class: "bg-nav-header py-3 sm:py-4 md:py-8" },
                             children: {
                                 tag: "ul",
-                                attributes: { class: "liRepository" },
+                                attributes: { class: "flex " },
                                 children: [
                                     liCreator("Hero", ""),
                                     liCreator("About", ""),
@@ -33,7 +33,7 @@ export default function header() {
                         },
                         {
                             tag: "div",
-                            attributes: { class: "parentIcon-H" },
+                            attributes: { class: "my-2 mx-3 parentIcon-H hidden" },
                             children: {
                                 tag: "img",
                                 attributes: { class: "menu-nav-H", src: icons.header.menu }
@@ -51,7 +51,7 @@ function liCreator(child, href = "#") {
         {
             tag: "li",
             properties: { textContent: child },
-            attributes: { href: href }
+            attributes: { href: href, class: "py-2 sm:py-1 px-2 mx-3 font-bold text-xs sm:text-lg " }
         }
     )
 }
