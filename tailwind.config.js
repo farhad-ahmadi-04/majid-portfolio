@@ -11,7 +11,8 @@ export default {
           DEFAULT: '#E2DFCA',
           light: '#DAD5B7',
           Medium: '#C2B79B',
-          dark: '#8C8C8C'
+          dark: '#CCCBC3',
+          darker: '#8C8C8C'
         },
         'blue': {
           Teal: '#3A5F6F',
@@ -24,10 +25,10 @@ export default {
     },
     screens: {
       xsm: { 'max': '480px' },
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px'
+      sm: { 'max': '640px' },
+      md: { 'max': '768px' },
+      lg: { 'max': '1024px' },
+      xl: { 'max': '1280px' }
     },
     plugins: [],
   }
