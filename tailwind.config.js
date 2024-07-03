@@ -21,6 +21,9 @@ export default {
     },
     container: {
       center: true,
+    },
+    screens: {
+      xsm: { 'max': '480px' }
     }
   },
   plugins: [],

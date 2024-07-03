@@ -7,17 +7,17 @@ export default function header() {
         domGenerator(
             {
                 tag: "header",
-                attributes: { id: "header" },
+                attributes: { id: "header", class: "bg-blue-dark" },
                 children: {
                     tag: "div",
                     attributes: { class: "container flex" },
                     children: [
                         {
                             tag: "div",
-                            attributes: { class: "bg-nav-header py-3 sm:py-4 md:py-8" },
+                            attributes: { class: "bg-nav-header bg-Beige xsm:hidden py-3 sm:py-4 md:py-8" },
                             children: {
                                 tag: "ul",
-                                attributes: { class: "flex " },
+                                attributes: { class: "flex" },
                                 children: [
                                     liCreator("Hero", ""),
                                     liCreator("About", ""),
@@ -29,11 +29,11 @@ export default function header() {
                         },
                         {
                             tag: "div",
-                            attributes: { class: "triangle" }
+                            attributes: { class: "triangle  xsm:hidden" }
                         },
                         {
                             tag: "div",
-                            attributes: { class: "my-2 mx-3 parentIcon-H hidden" },
+                            attributes: { class: "my-2 mx-3 xsm:flex hidden" },
                             children: {
                                 tag: "img",
                                 attributes: { class: "menu-nav-H", src: icons.header.menu }
@@ -51,7 +51,7 @@ function liCreator(child, href = "#") {
         {
             tag: "li",
             properties: { textContent: child },
-            attributes: { href: href, class: "py-2 sm:py-1 sm:px-2 px-1 mx-3 font-bold text-xs sm:text-lg " }
+            attributes: { href: href, class: "py-2 sm:py-1 sm:px-2 px-1 mx-3 font-bold text-xs sm:text-lg text-Beige-dark" }
         }
     )
 }

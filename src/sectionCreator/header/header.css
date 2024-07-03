@@ -1,17 +1,5 @@
 @import url(../../assets/localVariables/colorVariables.css);
 
-#header {
-    background-color: var(--dark-color);
-}
-
-.bg-nav-header {
-    background-color: var(--light-color);
-}
-
-li {
-    color: var(--text-header);
-}
-
 .triangle {
     width: 70px;
     height: 55px;
@@ -32,17 +20,5 @@ li {
     .triangle {
         border-right: 70px solid transparent;
         border-top: 62px solid var(--light-color);
-    }
-}
-
-@media (max-width: 480px) {
-
-    .bg-nav-header,
-    .triangle {
-        display: none;
-    }
-
-    .parentIcon-H {
-        display: flex;
     }
 }
