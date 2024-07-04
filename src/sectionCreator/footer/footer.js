@@ -63,8 +63,13 @@ export function footer() {
                 }],
             }, {
                 tag: "div",
-                attributes: { class: "container-item  w-full" },
+                attributes: { class: "container-item  w-full flex justify-center items-center" },
+                children: [{
+                    tag: "p",
+                    attributes: { class: " text-xl text-Beige-dark -rotate-6" },
+                    properties: { textContent: "Proficient in JavaScript jefwen  nfwnfeowkf elkjfoef f ejf gkrmg mfrgmv flckeoldmfgmg gvmokgrkgok gm rg rgvrgvo rrmmgmg mgmr mgllppwler ffgmkg wefmk fmewmrf  fefoekotwlr k fotkgmg q  tkghn" }
 
+                }]
             }]
 
         }]
