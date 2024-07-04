@@ -3,7 +3,8 @@
     "menu": "/images/marketeq_menu.svg"
   },
   "footer": {
-    "avatar": "/images/character.png"
+    "avatar": "/images/character.png",
+    "arrow": "/images/arrow-footer.svg"
   },
 
   "icons": {
