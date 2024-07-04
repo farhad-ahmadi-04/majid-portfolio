@@ -4,5 +4,12 @@
   },
   "footer": {
     "avatar": "/images/character.png"
+  },
+
+  "icons": {
+    "WhatsApp": {
+      "src": "/images/WhatsApp.svg",
+      "alt": "WhatsApp icon"
+    }
   }
 }
