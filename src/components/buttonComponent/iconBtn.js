@@ -9,6 +9,7 @@ import domGenerator from "dom-generator";
 export function iconBtn({ src, alt }) {
     return domGenerator({
         tag: "button",
+        attributes: { class: "p-1" },
         children: [{
             tag: "img",
             attributes: { class: "w-7" },
