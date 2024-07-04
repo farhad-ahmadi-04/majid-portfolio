@@ -29,7 +29,8 @@ export default {
       md: { 'max': '768px' },
       lg: { 'max': '1024px' },
       xl: { 'max': '1280px' },
-      "2xl": { 'max': '1536px' },
+      "2xl": { 'max': '1535px' },
+      "3xl": '1536px',
     },
     plugins: [],
   }
