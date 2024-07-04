@@ -10,6 +10,18 @@
     "WhatsApp": {
       "src": "/images/WhatsApp.svg",
       "alt": "WhatsApp icon"
+    },
+    "Telegram": {
+      "src": "/images/Telegram App.svg",
+      "alt": "Telegram icon"
+    },
+    "LinkedIn": {
+      "src": "/images/LinkedIn.svg",
+      "alt": "LinkedIn icon"
+    },
+    "Instagram": {
+      "src": "/images/Instagram.svg",
+      "alt": "Instagram icon"
     }
   }
 }
