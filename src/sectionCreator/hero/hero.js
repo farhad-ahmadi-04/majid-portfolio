@@ -12,7 +12,7 @@ export default function hero() {
                 attributes: { class: "heroSection bg-blue-dark px-5" },
                 children: {
                     tag: "div",
-                    attributes: { class: "container flex py-32 sm:py-16" },
+                    attributes: { class: "container flex pt-32 pb-48 sm:py-16 relative" },
                     children: [
                         {
                             tag: "div",
@@ -37,7 +37,7 @@ export default function hero() {
                                     children: [
                                         {
                                             tag: "img",
-                                            attributes: { src: images.portfolioText, alt: "", class: "w-3/5 sm:w-full" }
+                                            attributes: { src: images.images.portfolioText, alt: "", class: "w-3/5 sm:w-full" }
                                         },
                                         {
                                             tag: "h3",
@@ -61,6 +61,26 @@ export default function hero() {
                                             properties: { textContent: "User InterFace Designer" }
                                         }
                                     ]
+                                }
+                            ]
+                        },
+                        {
+                            tag: "div",
+                            attributes: { class: "mdl:hidden" },
+                            children: [
+                                {
+                                    tag: "img",
+                                    attributes: {
+                                        class: "absolute inset-2/4 top-0 lg:w-4/12 lg:w-2/6",
+                                        src: images.arrows["arrow-r-hero"]
+                                    },
+                                },
+                                {
+                                    tag: "img",
+                                    attributes: {
+                                        class: "absolute left-1/4 bottom-0 8-3/12 lg:w-3/12 lg:top-2/3",
+                                        src: images.arrows["arrow-l-hero"]
+                                    },
                                 }
                             ]
                         }

@@ -1,3 +1,9 @@
 {
-    "portfolioText": "/images/portfolioText.svg"
+    "images": {
+        "portfolioText": "/images/portfolioText.svg"
+    },
+    "arrows": {
+        "arrow-l-hero": "/images/arrow-l-hero.svg",
+        "arrow-r-hero": "/images/arrow-r-hero.svg"
+    }
 }
