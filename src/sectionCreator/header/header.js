@@ -14,7 +14,7 @@ export default function header() {
                     children: [
                         {
                             tag: "div",
-                            attributes: { class: "bg-nav-header bg-Beige xsm:hidden py-2 sm:py-4 md:py-8" },
+                            attributes: { class: "pl-5 bg-Beige xsm:hidden py-2 sm:py-4 md:py-2" },
                             children: {
                                 tag: "ul",
                                 attributes: { class: "flex" },
@@ -51,7 +51,7 @@ function liCreator(child, href = "#") {
         {
             tag: "li",
             properties: { textContent: child },
-            attributes: { href: href, class: "py-2 sm:py-1 sm:px-2 px-1 mx-3 font-bold text-Beige-darker sm:text-xl text-sm" }
+            attributes: { href: href, class: "py-1 sm:py-2 sm:px-0 px-1 mx-3 font-bold text-Beige-darker sm:text-sm text-lg" }
         }
     )
 }
