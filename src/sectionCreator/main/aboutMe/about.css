@@ -1,0 +1,6 @@
+.about-texts{
+    @apply flex flex-col justify-center gap-6 md:border-2 md:border-solid md:rounded-lg border-gray pr-4 md:p-4 md:border-dashed
+}
+.container-about{
+    @apply container grid grid-cols-2 md:grid-cols-1 gap-4 border-2 border-solid rounded-lg border-gray md:border-0
+}
