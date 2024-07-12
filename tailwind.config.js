@@ -17,6 +17,9 @@ export default {
         'blue': {
           Teal: '#3A5F6F',
           dark: '#243757'
+        },
+        'gray': {
+          DEFAULT: '#B6B6B6'
         }
       }
     },
