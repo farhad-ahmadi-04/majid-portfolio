@@ -1,9 +1,10 @@
 {
-    "images": {
-        "portfolioText": "/images/portfolioText.svg"
-    },
-    "arrows": {
-        "arrow-l-hero": "/images/arrow-l-hero.svg",
-        "arrow-r-hero": "/images/arrow-r-hero.svg"
-    }
+  "images": {
+    "portfolioText": "/images/portfolioText.svg",
+    "majid": "/images/my-photo.png"
+  },
+  "arrows": {
+    "arrow-l-hero": "/images/arrow-l-hero.svg",
+    "arrow-r-hero": "/images/arrow-r-hero.svg"
+  }
 }
