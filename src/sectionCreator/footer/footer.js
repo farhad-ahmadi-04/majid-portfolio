@@ -21,25 +21,25 @@ export function footer() {
                     children: [
                         {
                             tag: "div",
-                            attributes: { class: "flex flex-col justify-center items-center w-full" },
+                            attributes: { class: "flex flex-col justify-center items-center w-full xsm:-rotate-2" },
                             children: [{
                                 tag: "img",
                                 attributes: { class: "xsm:hidden w-32 h-40" },
                                 properties: { src: icons.footer.avatar }
                             }, {
                                 tag: "h1",
-                                attributes: { class: "text-4xl font-bold text-center text-Beige" },
+                                attributes: { class: "text-4xl xsm:text-2xl font-bold text-center text-Beige mb-3 xsm:-rotate-3" },
                                 properties: { textContent: "Giving Thanks" }
                             }, {
                                 tag: "div",
                                 attributes: { class: "flex flex-col justify-center text-Beige-dark gap-1" },
                                 children: [{
                                     tag: "p",
-                                    attributes: { class: "text-center text-2xl" },
+                                    attributes: { class: "text-center text-xl xsm:text-lg" },
                                     properties: { textContent: "Get in touch:" }
                                 }, {
                                     tag: "p",
-                                    attributes: { class: "text-center text-xl break-all" },
+                                    attributes: { class: "text-center text-base break-all" },
                                     properties: { textContent: "majidsheshbelooki@gmail.com" }
                                 }]
                             }]
@@ -73,7 +73,7 @@ export function footer() {
                     attributes: { class: "container-item  w-full flex justify-center items-center" },
                     children: [{
                         tag: "p",
-                        attributes: { class: " text-xl text-Beige-dark -rotate-6 md:rotate-0 md:text-center" },
+                        attributes: { class: " text-xl xsm: text-base text-Beige-dark -rotate-6 md:rotate-0 md:text-center" },
                         properties: { textContent: "Proficient in JavaScript jefwen  nfwnfeowkf elkjfoef f ejf gkrmg mfrgmv flckeoldmfgmg gvmokgrkgok gm rg rgvrgvo rrmmgmg mgmr mgllppwler ffgmkg wefmk fmewmrf  fefoekotwlr k fotkgmg q  tkghn" }
 
                     }]
