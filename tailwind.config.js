@@ -20,6 +20,12 @@ export default {
         },
         'gray': {
           DEFAULT: '#B6B6B6'
+        },
+        'cards': {
+          yellow: "#D7D971",
+          blue: "#71CCD9",
+          brown: "#D9C271",
+          pink: "#EF9DE7"
         }
       }
     },
