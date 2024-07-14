@@ -3,13 +3,13 @@ import "./skills.css"
 import cardSkills from "../../../components/cardSkills";
 import images from "../../../datas/images.json"
 
-let { manager, learning, triceps, paperclip } = images.images
+let { manager, learning, triceps } = images.images
 
 export default function skills() {
     return domGenerator(
         {
             tag: "section",
-            attributes: { class: "" },
+            attributes: { class: "bg-Beige" },
             children: [
                 {
                     tag: "h1",
@@ -27,8 +27,8 @@ export default function skills() {
                                 {
                                     tag: "img",
                                     attributes: {
-                                        class: "opacity-10",
-                                        src: "",
+                                        class: "opacity-5",
+                                        src: manager,
                                         alt: ""
                                     }
                                 },
@@ -65,12 +65,12 @@ export default function skills() {
                             attributes: { class: "" },
                             children: {
                                 tag: "div",
-                                attributes: { class: "" },
-                                childer: {
+                                attributes: { class: "bg-dark" },
+                                children: {
                                     tag: "img",
                                     attributes: {
-                                        class: "",
-                                        src: "",
+                                        class: "opacity-5",
+                                        src: learning,
                                         alt: ""
                                     }
                                 }
@@ -86,8 +86,8 @@ export default function skills() {
                                     children: {
                                         tag: "img",
                                         attributes: {
-                                            class: "",
-                                            src: "",
+                                            class: "opacity-5",
+                                            src: triceps,
                                             alt: ""
                                         }
                                     }
@@ -102,20 +102,32 @@ export default function skills() {
                                 },
                                 {
                                     tag: "div",
-                                    attributes: { class: "" },
+                                    attributes: { class: "flex gap-20" },
                                     children: [
                                         {
-                                            tag: cardSkills()
+                                            tag: "div",
+                                            attributes: { class: "" },
+                                            children: [
+                                                {
+                                                    tag: cardSkills("Digital marketing", "bg-cards-yellow")
+                                                },
+                                                {
+                                                    tag: cardSkills("Product designer", "bg-cards-blue")
+                                                },
+                                            ]
                                         },
                                         {
-                                            tag: cardSkills()
-                                        },
-                                        {
-                                            tag: cardSkills()
-                                        },
-                                        {
-                                            tag: cardSkills()
-                                        },
+                                            tag: "div",
+                                            attributes: { class: "" },
+                                            children: [
+                                                {
+                                                    tag: cardSkills("Team management", "bg-cards-brown")
+                                                },
+                                                {
+                                                    tag: cardSkills("connections", "bg-cards-pink")
+                                                },
+                                            ]
+                                        }
                                     ]
                                 }
                             ]
