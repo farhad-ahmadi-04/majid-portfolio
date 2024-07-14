@@ -1,8 +1,8 @@
 import domGenerator from "dom-generator";
 import "./hero.css";
-import { icons } from "../../datas/icons.json"
-import { iconBtn } from "../../components/buttonComponent/iconBtn";
-import images from "../../datas/images.json"
+import { icons } from "../../../datas/icons.json"
+import { iconBtn } from "../../../components/buttonComponent/iconBtn";
+import images from "../../../datas/images.json"
 
 export default function hero() {
     return (
