@@ -19,11 +19,11 @@ export default function header() {
                                 tag: "ul",
                                 attributes: { class: "flex" },
                                 children: [
-                                    liCreator("Hero", ""),
-                                    liCreator("About", ""),
-                                    liCreator("Skills", ""),
-                                    liCreator("Projects", ""),
-                                    liCreator("giving thanks", ""),
+                                    { tag: liCreator("Hero", "") },
+                                    { tag: liCreator("About", "") },
+                                    { tag: liCreator("Skills", "") },
+                                    { tag: liCreator("Projects", "") },
+                                    { tag: liCreator("giving thanks", "") },
                                 ]
                             }
                         },
@@ -47,11 +47,12 @@ export default function header() {
 }
 
 function liCreator(child, href = "#") {
-    return (
+    return domGenerator(
         {
             tag: "li",
             properties: { textContent: child },
             attributes: { href: href, class: "py-1 sm:py-2 sm:px-0 px-1 mx-3 font-bold text-Beige-darker sm:text-sm text-lg" }
         }
     )
+
 }
