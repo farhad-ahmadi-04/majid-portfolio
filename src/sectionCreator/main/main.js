@@ -1,5 +1,5 @@
 import domGenerator from "dom-generator";
-import hero from "../hero/hero";
+import hero from "./hero/hero";
 import about from "./aboutMe/about";
 
 export default function main() {
