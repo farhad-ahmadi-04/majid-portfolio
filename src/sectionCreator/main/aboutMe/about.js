@@ -30,7 +30,7 @@ export default function about() {
                 }, {
                     tag: "p",
                     attributes: { class: "text-center text-blue-dark text-xl xsm:text-lg" },
-                    properties: { textContent: "I`am majid sheshbelooki jjdksd djdjsbbyuer ivjfdocnoifvn duvjjf iiijfdwokp rokvdsv virov friojvii jif thsvn dmkmkfmk vmkmvmmw f em ‘UserInterFace Designer dkfncodkf odso ffmkd fne nffnfnfdknfkdkf fiojf fjjfi jfjeof fjijijfiwo f ffj je f efiof f ieolflkvnkdfnjgpe3t n mfvkfmkvmor ggorigoorgvmfdkvmkae[qepfmd;vmfmg pfmpaf  plefpw,fpf,mpfm " }
+                    properties: { textContent: "I`am majid sheshbelooki jjdksd djdjsbbyuer ivjfdocnoifvn duvjjf iiijfdwokp rokvdsv virov friojvii jif thsvn dmkmkfmk vmkmvmmw f em ‘UserInterFace Designer dkfncodkf odso ffmkd fne nffnfnfd knfkdkf fiojf fjjfi jfjeof fjijijfiwo f ffj je f efiof f ieolflkv nkdfnjgpe3t n mfvkfmkvmor ggori goorgvmfdkv mkae[qepfm d;vmfmg pfmpaf  plefpw,fpf,mpfm " }
                 }]
             }]
         }]
