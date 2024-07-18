@@ -4,16 +4,15 @@ import cardSkills from "../../../components/cardSkills";
 import images from "../../../datas/images.json"
 
 let { manager, learning, triceps } = images.images
-
 export default function skills() {
     return domGenerator(
         {
             tag: "section",
-            attributes: { class: "bg-Beige" },
+            attributes: { class: "px-5" },
             children: [
                 {
                     tag: "h1",
-                    attributes: { class: "" },
+                    attributes: { class: "text-center text-6xl md:text-4xl xsm:text-3xl" },
                     properties: { textContent: "skills" }
                 },
                 {
