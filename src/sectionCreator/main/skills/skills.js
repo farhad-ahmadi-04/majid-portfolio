@@ -18,11 +18,11 @@ export default function skills() {
                 },
                 {
                     tag: "div",
-                    attributes: { class: "container" },
+                    attributes: { class: "container flex justify-between md:flex-col" },
                     children: [
                         {
                             tag: "div",
-                            attributes: { class: "" },
+                            attributes: { class: "flex flex-col items-center gap-1.5 w-1/3 md:w-full" },
                             children: [
                                 {
                                     tag: "img",
@@ -34,16 +34,16 @@ export default function skills() {
                                 },
                                 {
                                     tag: "div",
-                                    attributes: { class: "" },
+                                    attributes: { class: "flex flex-col gap-4 w-full" },
                                     children: [
                                         {
-                                            tag: hardSkillCard('Site design engineer')
+                                            tag: hardSkillCard('Site design engineer', "right"),
                                         },
                                         {
                                             tag: hardSkillCard("User experience designer")
                                         },
                                         {
-                                            tag: hardSkillCard("User interface designer")
+                                            tag: hardSkillCard("User interface designer", "right")
                                         },
                                         {
                                             tag: hardSkillCard("Proficient in JavaScript")
