@@ -16,7 +16,8 @@ export default {
         },
         'blue': {
           Teal: '#3A5F6F',
-          dark: '#243757'
+          dark: '#243757',
+          light: "#586882"
         },
         'gray': {
           DEFAULT: '#B6B6B6'
@@ -26,7 +27,7 @@ export default {
           blue: "#71CCD9",
           brown: "#D9C271",
           pink: "#EF9DE7",
-          text: "#535353"
+          text: "#535353",
         }
       }
     },
