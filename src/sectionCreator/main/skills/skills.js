@@ -22,7 +22,7 @@ export default function skills() {
                 },
                 {
                     tag: "div",
-                    attributes: { class: "container flex justify-between md:flex-col" },
+                    attributes: { class: "container flex justify-evenly md:flex-col md:gap-9" },
                     children: [
                         {
                             tag: "div",
@@ -74,11 +74,11 @@ export default function skills() {
                         },
                         {
                             tag: "div",
-                            attributes: { class: "" },
+                            attributes: { class: "flex flex-col items-center gap-5 md:relative mb-16" },
                             children: [
                                 {
                                     tag: "div",
-                                    attributes: { class: "" },
+                                    attributes: { class: "self-start md:absolute md:top-2/4 start-1/3" },
                                     children: {
                                         tag: "img",
                                         attributes: {
@@ -90,39 +90,30 @@ export default function skills() {
                                 },
                                 {
                                     tag: "div",
-                                    attributes: { class: "" },
+                                    attributes: {
+                                        class: "-rotate-6 mb-10 md:absolute md:left-8"
+                                    },
                                     children: {
                                         tag: "span",
-                                        attributes: { class: "" }
+                                        attributes: { class: "text-3xl font-semibold bg-white px-7 rounded-lg" },
+                                        properties: { textContent: "Soft Skill" }
                                     }
                                 },
                                 {
                                     tag: "div",
-                                    attributes: { class: "flex gap-20" },
+                                    attributes: { class: "grid gap-10 grid-cols-2 md:grid-cols-4 md:grid-rows-2 md:gap-0 md:w-full" },
                                     children: [
                                         {
-                                            tag: "div",
-                                            attributes: { class: "" },
-                                            children: [
-                                                {
-                                                    tag: cardSkills("Digital marketing", "bg-cards-yellow")
-                                                },
-                                                {
-                                                    tag: cardSkills("Product designer", "bg-cards-blue")
-                                                },
-                                            ]
+                                            tag: cardSkills("Digital marketing", "bg-cards-yellow", -30, 30, "md:row-span-2 md:self-center md:justify-self-center")
                                         },
                                         {
-                                            tag: "div",
-                                            attributes: { class: "" },
-                                            children: [
-                                                {
-                                                    tag: cardSkills("Team management", "bg-cards-brown")
-                                                },
-                                                {
-                                                    tag: cardSkills("connections", "bg-cards-pink")
-                                                },
-                                            ]
+                                            tag: cardSkills("Product designer", "bg-cards-blue", -30, 30, "md:col-span-2 md:justify-self-center md:mb-16")
+                                        },
+                                        {
+                                            tag: cardSkills("Team management", "bg-cards-brown", -30, 30, "md:row-span-2 md:self-center md:justify-self-center")
+                                        },
+                                        {
+                                            tag: cardSkills("connections", "bg-cards-pink", -30, 30, "md:col-span-2 md:justify-self-center md:mt-16")
                                         }
                                     ]
                                 }
