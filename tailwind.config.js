@@ -25,7 +25,8 @@ export default {
           yellow: "#D7D971",
           blue: "#71CCD9",
           brown: "#D9C271",
-          pink: "#EF9DE7"
+          pink: "#EF9DE7",
+          text: "#535353"
         }
       }
     },
