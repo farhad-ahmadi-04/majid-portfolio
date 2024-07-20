@@ -2,6 +2,7 @@ import domGenerator from "dom-generator";
 import "./skills.css"
 import cardSkills from "../../../components/cardSkills";
 import images from "../../../datas/images.json"
+import hardSkillCard from "../../../components/hardSkillCard";
 
 let { manager, learning, triceps } = images.images
 export default function skills() {
@@ -36,24 +37,16 @@ export default function skills() {
                                     attributes: { class: "" },
                                     children: [
                                         {
-                                            tag: "span",
-                                            attributes: { class: "" },
-                                            properties: { textContent: "Site design engineer" }
+                                            tag: hardSkillCard('Site design engineer')
                                         },
                                         {
-                                            tag: "span",
-                                            attributes: { class: "" },
-                                            properties: { textContent: "User experience designer" }
+                                            tag: hardSkillCard("User experience designer")
                                         },
                                         {
-                                            tag: "span",
-                                            attributes: { class: "" },
-                                            properties: { textContent: "User interface designer" }
+                                            tag: hardSkillCard("User interface designer")
                                         },
                                         {
-                                            tag: "span",
-                                            attributes: { class: "" },
-                                            properties: { textContent: "Proficient in JavaScript" }
+                                            tag: hardSkillCard("Proficient in JavaScript")
                                         }
                                     ]
                                 }
