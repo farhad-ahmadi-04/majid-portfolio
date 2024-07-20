@@ -5,6 +5,10 @@ import images from "../../../datas/images.json"
 import hardSkillCard from "../../../components/hardSkillCard";
 
 let { manager, learning, triceps } = images.images
+/**
+ * create skill section component 
+ * @returns element
+ */
 export default function skills() {
     return domGenerator(
         {
@@ -29,7 +33,7 @@ export default function skills() {
                                     attributes: {
                                         class: "opacity-5",
                                         src: manager,
-                                        alt: ""
+                                        alt: "manager image"
                                     }
                                 },
                                 {
@@ -54,16 +58,16 @@ export default function skills() {
                         },
                         {
                             tag: "div",
-                            attributes: { class: "" },
+                            attributes: { class: "flex items-center md:hidden" },
                             children: {
                                 tag: "div",
-                                attributes: { class: "bg-dark" },
+                                attributes: { class: "bg-dark border rounded-full border-blue-light border-4 p-10" },
                                 children: {
                                     tag: "img",
                                     attributes: {
                                         class: "opacity-5",
                                         src: learning,
-                                        alt: ""
+                                        alt: "learning"
                                     }
                                 }
                             }
