@@ -6,7 +6,7 @@ import skills from "./skills/skills";
 export default function main() {
     return domGenerator({
         tag: "main",
-        attributes: { class: "bg-Beige" },
+        attributes: { class: "bg-Beige overflow-hidden" },
         children: [{
             tag: hero()
         }, {
