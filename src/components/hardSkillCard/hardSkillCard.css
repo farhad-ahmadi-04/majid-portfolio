@@ -1,0 +1,9 @@
+.hard-skill-card {
+  width: fit-content;
+}
+
+@media only screen and (min-width: 448px) and (max-width: 768px) {
+  .hard-skill-card {
+    width: 65%;
+  }
+}

@@ -1,4 +1,5 @@
-import domGenerator from "dom-generator"
+import domGenerator from "dom-generator";
+import "./hardSkillCard.css";
 
 /**
  * create card component for hard skill by don generator and adding tailwind styles 
@@ -9,7 +10,7 @@ import domGenerator from "dom-generator"
 export default function hardSkillCard(skill, position = "self-start") {
     return domGenerator({
         tag: "div",
-        attributes: { class: `px-4 py-2 rounded-lg bg-Beige-Medium w-fit text-center ${position.toLocaleLowerCase() === "right" ? 'self-end' : position}` },
+        attributes: { class: `hard-skill-card test px-4 py-2 rounded-lg bg-Beige-Medium text-center ${position.toLocaleLowerCase() === "right" ? 'self-end' : position}` },
         children: [{
             tag: "span",
             attributes: { class: "text-2xl md:text-base font-bold text-cards-text " },
