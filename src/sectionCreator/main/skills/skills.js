@@ -3,6 +3,7 @@ import "./skills.css"
 import cardSkills from "../../../components/cardSkills";
 import images from "../../../datas/images.json"
 import hardSkillCard from "../../../components/hardSkillCard";
+import "./skills.css";
 
 let { manager, learning, triceps } = images.images
 /**
@@ -31,7 +32,7 @@ export default function skills() {
                                 {
                                     tag: "img",
                                     attributes: {
-                                        class: "opacity-5",
+                                        class: "opacity-5 md:w-24",
                                         src: manager,
                                         alt: "manager image"
                                     }
@@ -78,11 +79,11 @@ export default function skills() {
                             children: [
                                 {
                                     tag: "div",
-                                    attributes: { class: "self-start md:absolute md:top-2/4 start-1/3" },
+                                    attributes: { class: "triceps-img self-start start-1/3" },
                                     children: {
                                         tag: "img",
                                         attributes: {
-                                            class: "opacity-5",
+                                            class: "opacity-5 md:w-24",
                                             src: triceps,
                                             alt: ""
                                         }
@@ -91,11 +92,11 @@ export default function skills() {
                                 {
                                     tag: "div",
                                     attributes: {
-                                        class: "-rotate-6 mb-10 md:absolute md:left-8"
+                                        class: "-rotate-6 mb-10  md:left-8 md:mb-0 md:self-start"
                                     },
                                     children: {
                                         tag: "span",
-                                        attributes: { class: "text-3xl font-semibold bg-white px-7 rounded-lg" },
+                                        attributes: { class: "text-3xl md:text-2xl font-semibold bg-white px-7 rounded-lg" },
                                         properties: { textContent: "Soft Skill" }
                                     }
                                 },
