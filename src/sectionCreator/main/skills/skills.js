@@ -2,7 +2,7 @@ import domGenerator from "dom-generator";
 import "./skills.css"
 import cardSkills from "../../../components/cardSkills";
 import images from "../../../datas/images.json"
-import hardSkillCard from "../../../components/hardSkillCard";
+import hardSkillCard from "../../../components/hardSkillCard/hardSkillCard";
 import "./skills.css";
 
 let { manager, learning, triceps } = images.images
