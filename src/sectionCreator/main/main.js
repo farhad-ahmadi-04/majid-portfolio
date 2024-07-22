@@ -2,6 +2,7 @@ import domGenerator from "dom-generator";
 import hero from "./hero/hero";
 import about from "./aboutMe/about";
 import skills from "./skills/skills";
+import { project } from "./projectSec/project";
 
 export default function main() {
     return domGenerator({
@@ -13,6 +14,8 @@ export default function main() {
             tag: about()
         }, {
             tag: skills()
+        }, {
+            tag: project()
         }]
     })
 }
