@@ -4,10 +4,18 @@
     "majid": "/images/my-photo.png",
     "manager": "/images/Manager.svg",
     "learning": "/images/Learning.svg",
-    "triceps": "/images/Triceps.svg"
+    "triceps": "/images/Triceps.svg",
+    "projects": {
+      "p1": "/images/photo-slider-1.png",
+      "p2": "/images/photo-slider-2.png",
+      "p3": "/images/photo-slider-3.png",
+      "p4": "/images/photo-slider-4.png"
+    }
   },
   "arrows": {
     "arrow-l-hero": "/images/arrow-l-hero.svg",
-    "arrow-r-hero": "/images/arrow-r-hero.svg"
+    "arrow-r-hero": "/images/arrow-r-hero.svg",
+    "arrow-l-portfolio": "/images/arrow-portfolio-l.svg",
+    "arrow-r-portfolio": "/images/arrow-portfolio-r.svg"
   }
 }
