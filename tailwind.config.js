@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'blue-pattern': "url('/images/Circle Blues Pattern.png')",
+      },
       colors: {
         'Beige': {
           DEFAULT: '#E2DFCA',
