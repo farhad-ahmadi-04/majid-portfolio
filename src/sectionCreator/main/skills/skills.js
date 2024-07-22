@@ -18,7 +18,7 @@ export default function skills() {
             children: [
                 {
                     tag: "h1",
-                    attributes: { class: "text-center text-6xl md:text-4xl xsm:text-3xl" },
+                    attributes: { class: "text-center text-blue-dark text-5xl xsm:text-3xl font-bold" },
                     properties: { textContent: "skills" }
                 },
                 {
