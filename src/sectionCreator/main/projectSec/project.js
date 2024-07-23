@@ -1,6 +1,7 @@
 import domGenerator from "dom-generator";
 import { iconBtn } from "../../../components/buttonComponent/iconBtn";
 import images from "../../../datas/images.json"
+import { slider } from "./slider";
 console.log(images.arrows.arrowLHero);
 
 /**
@@ -8,7 +9,7 @@ console.log(images.arrows.arrowLHero);
  * @returns element
  */
 export function project() {
-    return domGenerator({
+    const project = domGenerator({
         tag: 'section',
         attributes: { class: 'p-5 bg-blue-pattern' },
         children: [{
@@ -34,22 +35,22 @@ export function project() {
                         attributes: { class: "next-slide" },
                     }, {
                         tag: 'div',
-                        attributes: { class: "flex justify-center items-center" },
+                        attributes: { class: "flex w-3/5 items-center overflow-hidden" },
                         children: [{
                             tag: 'img',
-                            attributes: { class: "slider" },
+                            attributes: { class: "slide" },
                             properties: { src: images.images.projects.p1, alt: "project" }
                         }, {
                             tag: 'img',
-                            attributes: { class: "slider" },
+                            attributes: { class: "slide" },
                             properties: { src: images.images.projects.p2, alt: "project" }
                         }, {
                             tag: 'img',
-                            attributes: { class: "slider" },
+                            attributes: { class: "slide" },
                             properties: { src: images.images.projects.p3, alt: "project" }
                         }, {
                             tag: 'img',
-                            attributes: { class: "slider" },
+                            attributes: { class: "slide" },
                             properties: { src: images.images.projects.p4, alt: "project" }
                         }]
 
@@ -63,4 +64,6 @@ export function project() {
             }]
         }]
     })
+    slider(project);
+    return project;
 }
