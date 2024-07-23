@@ -31,20 +31,25 @@ export function project() {
                             src: images.arrows["arrow-l-portfolio"],
                             alt: "arrow icon left"
                         }, "md:hidden"),
+                        attributes: { class: "next-slide" },
                     }, {
                         tag: 'div',
                         attributes: { class: "flex justify-center items-center" },
                         children: [{
                             tag: 'img',
+                            attributes: { class: "slider" },
                             properties: { src: images.images.projects.p1, alt: "project" }
                         }, {
                             tag: 'img',
+                            attributes: { class: "slider" },
                             properties: { src: images.images.projects.p2, alt: "project" }
                         }, {
                             tag: 'img',
+                            attributes: { class: "slider" },
                             properties: { src: images.images.projects.p3, alt: "project" }
                         }, {
                             tag: 'img',
+                            attributes: { class: "slider" },
                             properties: { src: images.images.projects.p4, alt: "project" }
                         }]
 
@@ -52,7 +57,8 @@ export function project() {
                         tag: iconBtn({
                             src: images.arrows["arrow-r-portfolio"],
                             alt: "arrow icon left"
-                        }, "md:hidden")
+                        }, "md:hidden"),
+                        attributes: { class: "prev-slide" },
                     }]
             }]
         }]
