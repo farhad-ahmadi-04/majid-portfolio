@@ -6,10 +6,10 @@
     "learning": "/images/Learning.svg",
     "triceps": "/images/Triceps.svg",
     "projects": {
-      "p1": "/images/photo-slider-1.png",
-      "p2": "/images/photo-slider-2.png",
-      "p3": "/images/photo-slider-3.png",
-      "p4": "/images/photo-slider-4.png"
+      "p1": "/images/project01.png",
+      "p2": "/images/project02.png",
+      "p3": "/images/project03.png",
+      "p4": "/images/project04.png"
     }
   },
   "arrows": {
