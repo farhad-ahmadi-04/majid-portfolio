@@ -41,28 +41,28 @@ export function project() {
                             attributes: { class: "swiper-slide " },
                             children: [{
                                 tag: 'img',
-                                properties: { src: images.images.projects.p1, alt: "project" }
+                                properties: { src: images.images.projects.p2, alt: "project" }
                             }]
                         }, {
                             tag: 'div',
                             attributes: { class: "swiper-slide " },
                             children: [{
                                 tag: 'img',
-                                properties: { src: images.images.projects.p1, alt: "project" }
+                                properties: { src: images.images.projects.p3, alt: "project" }
                             }]
                         }, {
                             tag: 'div',
                             attributes: { class: "swiper-slide " },
                             children: [{
                                 tag: 'img',
-                                properties: { src: images.images.projects.p1, alt: "project" }
+                                properties: { src: images.images.projects.p4, alt: "project" }
                             }]
                         }, {
                             tag: 'div',
                             attributes: { class: "swiper-slide " },
                             children: [{
                                 tag: 'img',
-                                properties: { src: images.images.projects.p1, alt: "project" }
+                                properties: { src: images.images.projects.p3, alt: "project" }
                             }]
                         },]
 
