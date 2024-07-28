@@ -1,8 +1,7 @@
 import domGenerator from "dom-generator";
-import { iconBtn } from "../../../components/buttonComponent/iconBtn";
 import images from "../../../datas/images.json"
-import { slider } from "./slider";
-console.log(images.arrows.arrowLHero);
+import { swiper } from "./slider.js";
+import "./project.css";
 
 /**
  * create element (section) with dom-generator
@@ -25,45 +24,63 @@ export function project() {
                 properties: { textContent: 'Projects' }
             }, {
                 tag: "div",
-                attributes: { class: "flex justify-between items-center" },
+                attributes: { class: "swiper mySwiper" },
                 children: [
                     {
-                        tag: iconBtn({
-                            src: images.arrows["arrow-l-portfolio"],
-                            alt: "arrow icon left"
-                        }, "md:hidden"),
-                        attributes: { class: "next-slide" },
-                    }, {
                         tag: 'div',
-                        attributes: { class: "flex w-3/5 items-center overflow-hidden" },
+                        attributes: { class: "swiper-wrapper flex w-3/5 items-center " },
                         children: [{
-                            tag: 'img',
-                            attributes: { class: "slide" },
-                            properties: { src: images.images.projects.p1, alt: "project" }
+                            tag: 'div',
+                            attributes: { class: "swiper-slide " },
+                            children: [{
+                                tag: 'img',
+                                properties: { src: images.images.projects.p1, alt: "project" }
+                            }]
                         }, {
-                            tag: 'img',
-                            attributes: { class: "slide" },
-                            properties: { src: images.images.projects.p2, alt: "project" }
+                            tag: 'div',
+                            attributes: { class: "swiper-slide " },
+                            children: [{
+                                tag: 'img',
+                                properties: { src: images.images.projects.p1, alt: "project" }
+                            }]
                         }, {
-                            tag: 'img',
-                            attributes: { class: "slide" },
-                            properties: { src: images.images.projects.p3, alt: "project" }
+                            tag: 'div',
+                            attributes: { class: "swiper-slide " },
+                            children: [{
+                                tag: 'img',
+                                properties: { src: images.images.projects.p1, alt: "project" }
+                            }]
                         }, {
-                            tag: 'img',
-                            attributes: { class: "slide" },
-                            properties: { src: images.images.projects.p4, alt: "project" }
-                        }]
+                            tag: 'div',
+                            attributes: { class: "swiper-slide " },
+                            children: [{
+                                tag: 'img',
+                                properties: { src: images.images.projects.p1, alt: "project" }
+                            }]
+                        }, {
+                            tag: 'div',
+                            attributes: { class: "swiper-slide " },
+                            children: [{
+                                tag: 'img',
+                                properties: { src: images.images.projects.p1, alt: "project" }
+                            }]
+                        },]
 
                     }, {
-                        tag: iconBtn({
-                            src: images.arrows["arrow-r-portfolio"],
-                            alt: "arrow icon left"
-                        }, "md:hidden"),
-                        attributes: { class: "prev-slide" },
+                        tag: 'div',
+                        attributes: { class: "swiper-button-next" }
+                    }, {
+                        tag: 'div',
+                        attributes: { class: "swiper-button-prev" }
+                    }, {
+                        tag: "div",
+                        attributes: { class: "swiper-pagination" }
                     }]
             }]
         }]
-    })
-    slider(project);
-    return project;
+    });
+
+    document.body.appendChild(project);
+    swiper()
+    return project
 }
