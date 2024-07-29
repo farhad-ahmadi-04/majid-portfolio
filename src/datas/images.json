@@ -10,7 +10,33 @@
       "p2": "/images/project02.png",
       "p3": "/images/project03.png",
       "p4": "/images/project04.png"
-    }
+    },
+    "cardProject": [
+      {
+        "src": "/images/project1-1.png",
+        "alt": "",
+        "pName": "",
+        "description": ""
+      },
+      {
+        "src": "/images/project2-2.png",
+        "alt": "",
+        "pName": "",
+        "description": ""
+      },
+      {
+        "src": "/images/project3-3.png",
+        "alt": "",
+        "pName": "",
+        "description": ""
+      },
+      {
+        "src": "/images/project4-4.png",
+        "alt": "",
+        "pName": "",
+        "description": ""
+      }
+    ]
   },
   "arrows": {
     "arrow-l-hero": "/images/arrow-l-hero.svg",
