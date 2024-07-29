@@ -3,22 +3,21 @@ import hero from "./hero/hero";
 import about from "./aboutMe/about";
 import skills from "./skills/skills";
 import { project } from "./projectSec/project";
-import cardProject from "./cardProject/cardProject";
+import render from "../../components/render";
+import images from "/src/datas/images.json"
+import { cardProject } from "./cardProject/cardProject";
 
 export default function main() {
-    return domGenerator({
+    const main = domGenerator({
         tag: "main",
         attributes: { class: "bg-Beige overflow-hidden" },
-        children: [{
-            tag: hero()
-        }, {
-            tag: about()
-        }, {
-            tag: skills()
-        }, {
-            tag: project()
-        }, {
-            tag: cardProject()
-        }]
     })
+    render(main, hero())
+    render(main, about())
+    render(main, skills())
+    render(main, project())
+    images.images.cardProject.map(com => {
+        render(main, cardProject(com))
+    })
+    return main
 }
