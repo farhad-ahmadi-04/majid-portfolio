@@ -15,6 +15,7 @@ export default {
           light: '#DAD5B7',
           Medium: '#C2B79B',
           dark: '#CCCBC3',
+          semiDark: '#BCBCBC',
           darker: '#8C8C8C'
         },
         'blue': {
@@ -31,6 +32,7 @@ export default {
           brown: "#D9C271",
           pink: "#EF9DE7",
           text: "#535353",
+          darkText: '#505050'
         }
       }
     },
