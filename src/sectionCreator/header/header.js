@@ -1,13 +1,14 @@
 import domGenerator from "dom-generator";
 import "./header.css"
 import icons from "../../datas/icons.json"
+import "/src/assets/fonts/font.css";
 
 export default function header() {
     return (
         domGenerator(
             {
                 tag: "header",
-                attributes: { id: "header", class: "bg-blue-dark" },
+                attributes: { id: "header", class: "bg-blue-dark heebo-medium" },
                 children: {
                     tag: "div",
                     attributes: { class: "container flex" },
