@@ -3,6 +3,7 @@ import hero from "./hero/hero";
 import about from "./aboutMe/about";
 import skills from "./skills/skills";
 import { project } from "./projectSec/project";
+import cardProject from "./cardProject/cardProject";
 
 export default function main() {
     return domGenerator({
@@ -16,6 +17,8 @@ export default function main() {
             tag: skills()
         }, {
             tag: project()
+        }, {
+            tag: cardProject()
         }]
     })
 }
