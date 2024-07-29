@@ -1,0 +1,38 @@
+@font-face {
+  font-family: heebo-medium;
+  src: url(src/assets/fonts/Heebo/static/Heebo-Bold.ttf);
+}
+.heebo-medium {
+  font-family: heebo-medium;
+}
+@font-face {
+  font-family: heebo-Regular;
+  src: url(src/assets/fonts/Heebo/static/Heebo-Regular.ttf);
+}
+.heebo-Regular {
+  font-family: heebo-Regular;
+}
+@font-face {
+  font-family: heebo-bold;
+  src: url(src/assets/fonts/Heebo/static/Heebo-Bold.ttf);
+}
+.heebo-bold {
+  font-family: heebo-bold;
+}
+@font-face {
+  font-family: Grandstander-Medium;
+  src: url(src/assets/fonts/Grandstander/static/Grandstander-Medium.ttf);
+}
+.Grandstander-Medium {
+  font-family: Grandstander-Medium;
+}
+@font-face {
+  font-family: Grandstander-SemiBold;
+  src: url(src/assets/fonts/Grandstander/static/Grandstander-SemiBold.ttf);
+}
+.Grandstander-SemiBold {
+  font-family: Grandstander-SemiBold;
+}
+h1 {
+  font-family: Grandstander-Medium;
+}
