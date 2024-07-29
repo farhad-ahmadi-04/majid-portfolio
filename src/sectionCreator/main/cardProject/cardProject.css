@@ -1,0 +1,7 @@
+.card-project--texts {
+  @apply flex flex-col items-start md:items-center gap-6 pr-4 md:p-4 md:border-dashed col-span-2;
+}
+
+.card-project--container {
+  @apply container grid grid-cols-3 md:grid-cols-1 gap-4 border-2 border-solid rounded-lg border-gray  p-3;
+}
