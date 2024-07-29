@@ -4,6 +4,7 @@ import cardSkills from "../../../components/cardSkills";
 import images from "../../../datas/images.json"
 import hardSkillCard from "../../../components/hardSkillCard/hardSkillCard";
 import "./skills.css";
+import "/src/assets/fonts/font.css";
 
 let { manager, learning, triceps } = images.images
 /**
@@ -96,7 +97,7 @@ export default function skills() {
                                     },
                                     children: {
                                         tag: "span",
-                                        attributes: { class: "text-3xl md:text-2xl font-semibold bg-white px-7 rounded-lg" },
+                                        attributes: { class: "Grandstander-SemiBold text-blue-dark text-3xl md:text-2xl font-semibold bg-white px-7 rounded-lg" },
                                         properties: { textContent: "Soft Skill" }
                                     }
                                 },
