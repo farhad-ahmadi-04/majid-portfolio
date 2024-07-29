@@ -28,7 +28,7 @@ export function footer() {
                                 properties: { src: icons.footer.avatar }
                             }, {
                                 tag: "h1",
-                                attributes: { class: "text-4xl xsm:text-2xl font-bold text-center text-Beige mb-3 xsm:-rotate-3" },
+                                attributes: { class: "Grandstander-Medium text-4xl xsm:text-2xl font-bold text-center text-Beige mb-3 xsm:-rotate-3" },
                                 properties: { textContent: "Giving Thanks" }
                             }, {
                                 tag: "div",
@@ -73,7 +73,7 @@ export function footer() {
                     attributes: { class: "container-item  w-full flex justify-center items-center" },
                     children: [{
                         tag: "p",
-                        attributes: { class: " text-xl xsm: text-base text-Beige-dark -rotate-6 md:rotate-0 md:text-center" },
+                        attributes: { class: "heebo-medium text-xl xsm: text-base text-Beige-dark -rotate-6 md:rotate-0 md:text-center" },
                         properties: { textContent: "Proficient in JavaScript jefwen  nfwnfeowkf elkjfoef f ejf gkrmg mfrgmv flckeoldmfgmg gvmokgrkgok gm rg rgvrgvo rrmmgmg mgmr mgllppwler ffgmkg wefmk fmewmrf  fefoekotwlr k fotkgmg q  tkghn" }
 
                     }]
