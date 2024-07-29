@@ -1,6 +1,7 @@
 import domGenerator from "dom-generator";
 import images from "../../../datas/images.json";
 import "./about.css";
+import "/src/assets/fonts/font.css";
 
 /**
  * create about section and set data
@@ -29,7 +30,7 @@ export default function about() {
                     properties: { textContent: "Hellow" }
                 }, {
                     tag: "p",
-                    attributes: { class: "text-center text-blue-dark text-xl xsm:text-lg" },
+                    attributes: { class: "text-center heebo-Regular text-blue-dark text-xl xsm:text-lg" },
                     properties: { textContent: "I`am majid sheshbelooki jjdksd djdjsbbyuer ivjfdocnoifvn duvjjf iiijfdwokp rokvdsv virov friojvii jif thsvn dmkmkfmk vmkmvmmw f em ‘UserInterFace Designer dkfncodkf odso ffmkd fne nffnfnfd knfkdkf fiojf fjjfi jfjeof fjijijfiwo f ffj je f efiof f ieolflkv nkdfnjgpe3t n mfvkfmkvmor ggori goorgvmfdkv mkae[qepfm d;vmfmg pfmpaf  plefpw,fpf,mpfm " }
                 }]
             }]
