@@ -1,4 +1,5 @@
 import domGenerator from "dom-generator"
+import "/src/assets/fonts/font.css";
 
 /**
  * create card component that you are able to add extra class, choose bg, set your text and set number to rotation for design
@@ -14,7 +15,7 @@ export default function cardSkills(text, bgColor, max, min, extraClass = "") {
         {
             tag: "div",
             attributes: {
-                class: `${bgColor} w-28 h-28 sm:w-24 sm:h-24 p-2 md:p-0.5
+                class: `${bgColor} heebo-medium w-28 h-28 sm:w-24 sm:h-24 p-2 md:p-0.5
                 flex items-center justify-center md:rotate-0 ${extraClass}`,
                 style: `transform: rotate(${Math.floor(Math.random() * (max - min + 1)) + min}deg);`
             },
