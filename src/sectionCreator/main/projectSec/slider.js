@@ -12,9 +12,8 @@ import 'swiper/css/pagination';
  */
 export const swiper = () => {
     const translate = document.querySelectorAll('.swiper-slide')
-    console.log(translate);
     translate.forEach((s, i) => {
-        s.style.transform = `translateX(${i * -100}px)`;
+        s.style.transform = `translateX(${i === 0 ? 0 : s.firstElementChild.width / 3 * -i}px)`;
     })
     // init Swiper:
     const swiperInstance = new Swiper('.swiper', {
