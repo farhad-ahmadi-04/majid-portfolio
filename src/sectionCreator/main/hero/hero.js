@@ -3,13 +3,14 @@ import "./hero.css";
 import { icons } from "../../../datas/icons.json"
 import { iconBtn } from "../../../components/buttonComponent/iconBtn";
 import images from "../../../datas/images.json"
+import "/src/assets/fonts/font.css";
 
 export default function hero() {
     return (
         domGenerator(
             {
                 tag: "section",
-                attributes: { class: "heroSection bg-blue-dark px-5" },
+                attributes: { class: "heroSection bg-blue-dark px-5 heebo-medium" },
                 children: {
                     tag: "div",
                     attributes: { class: "container flex pt-32 pb-48 sm:py-16 relative" },
@@ -41,7 +42,7 @@ export default function hero() {
                                         },
                                         {
                                             tag: "h3",
-                                            attributes: { class: "text-Beige-light text-xl sm:text-right sm:w-full sm:pr-0 sm:text-sm" },
+                                            attributes: { class: "text-Beige-semiDark text-xl sm:text-right sm:w-full sm:pr-0 sm:text-sm" },
                                             properties: { textContent: "Majid sheshbelooki" }
                                         }
                                     ]
@@ -52,12 +53,12 @@ export default function hero() {
                                     children: [
                                         {
                                             tag: "h5",
-                                            attributes: { class: "text-Beige-light xsm:text-sm" },
+                                            attributes: { class: "text-Beige-semiDark xsm:text-sm" },
                                             properties: { textContent: "User Experience Designer" }
                                         },
                                         {
                                             tag: "h5",
-                                            attributes: { class: "text-Beige-light xsm:text-sm" },
+                                            attributes: { class: "text-Beige-semiDark xsm:text-sm" },
                                             properties: { textContent: "User InterFace Designer" }
                                         }
                                     ]
