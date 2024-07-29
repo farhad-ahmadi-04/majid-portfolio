@@ -30,7 +30,7 @@ export const cardProject = (obj) => {
                     properties: { textContent: obj.pName === "" && "Project Name" }
                 }, {
                     tag: "p",
-                    attributes: { class: "md:text-center text-blue-dark text-xl xsm:text-lg" },
+                    attributes: { class: "md:text-center heebo-bold text-cards-darkText text-xl xsm:text-lg" },
                     properties: { textContent: obj.description === "" && "Aliqua et in dolore occaecat voluptate velit laboris amet laborum. Deserunt cillum et aliquip qui tempor cillum est. Labore id duis nulla deserunt culpa id ad." }
                 }]
             }]
