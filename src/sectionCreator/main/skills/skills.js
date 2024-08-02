@@ -97,7 +97,7 @@ export default function skills() {
                                     },
                                     children: {
                                         tag: "span",
-                                        attributes: { class: "Grandstander-SemiBold text-blue-dark text-3xl md:text-2xl font-semibold bg-white px-7 rounded-lg" },
+                                        attributes: { class: "Grandstander-SemiBold text-blue-dark text-3xl md:text-2xl font-semibold bg-white px-7 py-1.5 rounded-lg" },
                                         properties: { textContent: "Soft Skill" }
                                     }
                                 },
