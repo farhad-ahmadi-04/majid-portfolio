@@ -1,9 +1,9 @@
 {
   "header": {
-    "menu": "/images/marketeq_menu.svg"
+    "menu": "/marketeq_menu.svg"
   },
   "footer": {
-    "avatar": "/images/character.png",
+    "avatar": "/character.png",
     "arrow": "/images/arrow-footer.svg"
   },
 
