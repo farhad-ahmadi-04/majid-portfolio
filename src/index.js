@@ -1,8 +1,8 @@
-import "/index.css";
-import render from "/render.js";
-import { footer } from "/footer.js";
-import header from "/header.js";
-import main from "/main.js";
+import "./index.css";
+import render from "./components/render.js";
+import { footer } from "./sectionCreator/footer/footer.js";
+import header from "./sectionCreator/header/header.js";
+import main from "./sectionCreator/main/main.js";
 
 let app = document.querySelector("#app")
 
