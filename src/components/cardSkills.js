@@ -33,7 +33,7 @@ export default function cardSkills(text, bgColor, max, min, extraClass = "") {
                     tag: "img",
                     attributes: {
                         class: "absolute -top-2.5 -right-2.5",
-                        src: "/images/Paperclip.svg",
+                        src: "images/Paperclip.svg",
                         alt: "Paperclip"
                     }
                 }
