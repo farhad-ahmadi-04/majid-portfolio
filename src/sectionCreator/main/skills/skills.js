@@ -4,7 +4,7 @@ import cardSkills from "../../../components/cardSkills";
 import images from "../../../datas/images.json"
 import hardSkillCard from "../../../components/hardSkillCard/hardSkillCard";
 import "./skills.css";
-import "/src/assets/fonts/font.css";
+import "./src/assets/fonts/font.css";
 
 let { manager, learning, triceps } = images.images
 /**
