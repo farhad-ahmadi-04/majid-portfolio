@@ -1,27 +1,27 @@
 {
   "header": {
-    "menu": "/marketeq_menu.svg"
+    "menu": "./images/marketeq_menu.svg"
   },
   "footer": {
-    "avatar": "/character.png",
-    "arrow": "/images/arrow-footer.svg"
+    "avatar": "./images/character.png",
+    "arrow": "./images/arrow-footer.svg"
   },
 
   "icons": {
     "WhatsApp": {
-      "src": "/images/WhatsApp.svg",
+      "src": "./images/WhatsApp.svg",
       "alt": "WhatsApp icon"
     },
     "Telegram": {
-      "src": "/images/Telegram App.svg",
+      "src": "./images/Telegram App.svg",
       "alt": "Telegram icon"
     },
     "LinkedIn": {
-      "src": "/images/LinkedIn.svg",
+      "src": "./images/LinkedIn.svg",
       "alt": "LinkedIn icon"
     },
     "Instagram": {
-      "src": "/images/Instagram.svg",
+      "src": "./images/Instagram.svg",
       "alt": "Instagram icon"
     }
   }

@@ -1,37 +1,37 @@
 {
   "images": {
-    "portfolioText": "/images/portfolioText.svg",
-    "majid": "/images/my-photo.png",
-    "manager": "/images/Manager.svg",
-    "learning": "/images/Learning.svg",
-    "triceps": "/images/Triceps.svg",
+    "portfolioText": "./images/portfolioText.svg",
+    "majid": "./images/my-photo.png",
+    "manager": "./images/Manager.svg",
+    "learning": "./images/Learning.svg",
+    "triceps": "./images/Triceps.svg",
     "projects": {
-      "p1": "/images/project01.png",
-      "p2": "/images/project02.png",
-      "p3": "/images/project03.png",
-      "p4": "/images/project04.png"
+      "p1": "./images/project01.png",
+      "p2": "./images/project02.png",
+      "p3": "./images/project03.png",
+      "p4": "./images/project04.png"
     },
     "cardProject": [
       {
-        "src": "/images/project1-1.png",
+        "src": "./images/project1-1.png",
         "alt": "",
         "pName": "",
         "description": ""
       },
       {
-        "src": "/images/project2-2.png",
+        "src": "./images/project2-2.png",
         "alt": "",
         "pName": "",
         "description": ""
       },
       {
-        "src": "/images/project3-3.png",
+        "src": "./images/project3-3.png",
         "alt": "",
         "pName": "",
         "description": ""
       },
       {
-        "src": "/images/project4-4.png",
+        "src": "./images/project4-4.png",
         "alt": "",
         "pName": "",
         "description": ""
@@ -39,9 +39,9 @@
     ]
   },
   "arrows": {
-    "arrow-l-hero": "/images/arrow-l-hero.svg",
-    "arrow-r-hero": "/images/arrow-r-hero.svg",
-    "arrow-l-portfolio": "/images/arrow-portfolio-l.svg",
-    "arrow-r-portfolio": "/images/arrow-portfolio-r.svg"
+    "arrow-l-hero": "./images/arrow-l-hero.svg",
+    "arrow-r-hero": "./images/arrow-r-hero.svg",
+    "arrow-l-portfolio": "./images/arrow-portfolio-l.svg",
+    "arrow-r-portfolio": "./images/arrow-portfolio-r.svg"
   }
 }
