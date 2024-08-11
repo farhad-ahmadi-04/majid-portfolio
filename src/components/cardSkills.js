@@ -1,5 +1,5 @@
 import domGenerator from "dom-generator"
-import "/fonts/font.css";
+import "/public/fonts/font.css";
 
 /**
  * create card component that you are able to add extra class, choose bg, set your text and set number to rotation for design
