@@ -1,7 +1,7 @@
 import domGenerator from "dom-generator";
 import images from "../../../datas/images.json";
 import "./about.css";
-import "/src/assets/fonts/font.css";
+import "/public/fonts/font.css";
 
 /**
  * create about section and set data

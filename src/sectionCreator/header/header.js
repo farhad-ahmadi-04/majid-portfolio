@@ -1,7 +1,7 @@
 import domGenerator from "dom-generator";
 import "./header.css"
 import icons from "../../datas/icons.json"
-import "/src/assets/fonts/font.css";
+import "/public/fonts/font.css";
 
 export default function header() {
     return (

@@ -3,7 +3,7 @@ import "./hero.css";
 import { icons } from "../../../datas/icons.json"
 import { iconBtn } from "../../../components/buttonComponent/iconBtn";
 import images from "../../../datas/images.json"
-import "/src/assets/fonts/font.css";
+import "/public/fonts/font.css";
 
 export default function hero() {
     return (

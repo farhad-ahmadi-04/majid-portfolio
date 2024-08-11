@@ -1,6 +1,6 @@
 import domGenerator from "dom-generator";
 import "./hardSkillCard.css";
-import "/src/assets/fonts/font.css";
+import "/public/fonts/font.css";
 
 /**
  * create card component for hard skill by don generator and adding tailwind styles 
