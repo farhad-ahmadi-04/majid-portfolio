@@ -1,5 +1,5 @@
 import domGenerator from "dom-generator"
-import "/public/fonts/font.css";
+import "/fonts/font.css";
 
 /**
  * create card component that you are able to add extra class, choose bg, set your text and set number to rotation for design
@@ -33,7 +33,7 @@ export default function cardSkills(text, bgColor, max, min, extraClass = "") {
                     tag: "img",
                     attributes: {
                         class: "absolute -top-2.5 -right-2.5",
-                        src: "./images/Paperclip.svg",
+                        src: "./public/images/Paperclip.svg",
                         alt: "Paperclip"
                     }
                 }
